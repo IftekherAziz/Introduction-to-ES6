@@ -93,3 +93,67 @@ https://drive.google.com/file/d/1Ut8t4Ed8V-U0Axtz4nbIXJhmxvMEMUe9/view?usp=shari
 হতে হতে একদিন হয়ে যাবে ছক্কা 
 
 তখন সামলাতে পারবে ES6 এর ধাক্কা
+
+
+
+
+
+1. How will you add 25 as the first element of the array? const numbers = [45, 12, 36, 84]
+ - unshift()
+
+Code:
+const numbers = [45, 12, 36, 84];
+const x =numbers.unshift(25);
+console.log(numbers);
+
+2. What would be the output? 
+Code: function getSum(a, b = 9) {
+  return a + b;
+}
+console.log(getSum(2, 7));
+- 9
+
+3. What will be the value of z? const y = x => x*x; const z = y(5);
+- 25
+
+4. const name = 'Hero'; const greetings = 'Welcome Home!'+' '+name;
+Re-write the greetings variable using ES6 template literals to print Welcome Home! Hero.
+- const greetings = `Welcome Home! ${name}`;
+
+5. Choose the correct answer about ES6 template string from the following options.
+- All of the above
+
+6. How can you declare an arrow function with no parameters?(Ask google mama.)
+- const myFunc = () => console.log('Nayok!');
+
+7. const division= num1, num2 => console.log(num1 /num2)
+If you call the above function division(4,2) , what will you get in the console?
+- Syntax Error
+
+8. const nayikas=['mousumi' , 'popy' ,'shabnur', 'purnima' ]. 
+How can you make a copy of nayikas using a spread operator?
+- const array2 = [...nayikas];
+
+9. How will you get the biggest number?
+const numbers=[10,20,30,40.50.60.70 ]
+- Math.max(...numbers);
+
+10. What would be the value of newCars?
+const cars=['toyota', 'honda','mercedes']; 
+cons newCars= [...cars , 'ferrari']; 
+
+- ['toyota', 'honda','mercedes','ferrari']
+
+<!-- What we have learned -->
+
+1. Var - let - const (Difference)
+
+2. Function Default Parameters
+
+3. Template String
+
+4. Arrow Function 
+
+5. Spread Operator
+
+6. Destructuring
