@@ -29,3 +29,4 @@ const add = (a, b,c) => {
     const result = mul / 2;
     return result;
 }
+
